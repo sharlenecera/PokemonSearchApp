@@ -1,3 +1,5 @@
+//total is 30 characters
+
 const data = [
     {
       "name": "Luke Skywalker",

@@ -1,0 +1,17 @@
+.pokemon-container {
+    text-align: center;
+    
+}
+
+.pokemon {
+    background-color: lightgray;
+    border-radius: 25px;
+    min-width: 100px;
+    margin: 5px;
+}
+
+.pokemon-display {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}

@@ -2,7 +2,7 @@ import React from "react";
 
 import {changeSearchTerm, clearSearchTerm} from './searchTermSlice';
 
-export const SearchTerm = ({searchTerm, dispatch}) => {
+const SearchTerm = ({searchTerm, dispatch}) => {
     const onChangeSearchTermHandler = e => {
         const newSearchTerm = e.target.value;
         dispatch(changeSearchTerm(newSearchTerm));
@@ -30,3 +30,4 @@ export const SearchTerm = ({searchTerm, dispatch}) => {
     )
 }
 
+export default SearchTerm;
