@@ -1,8 +1,15 @@
 import React, {useEffect} from "react";
-import { nextPage, previousPage } from "./pageNumberSlice";
+import { nextPage, previousPage, changeTotalPages } from "./pageNumberSlice";
 import './pageNumber.app.css';
 
 const PageNumber = ({pageNumber, totalPageNumber, dispatch}) => {
+
+    // const onFirstRender = () => {
+    //     dispatch(changeTotalPages(3));
+    // }
+
+    // useEffect(onFirstRender, []);
+
     const onPrevPageClickHandler = () => {
         dispatch(previousPage());
     }
